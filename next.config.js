@@ -12,6 +12,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Force CSS to be included in static export
+  experimental: {
+    optimizeCss: false,
+  },
 }
 
 module.exports = nextConfig
