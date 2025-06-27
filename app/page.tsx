@@ -139,7 +139,7 @@ export default function HackathonPage() {
                 <Button
                   size="lg"
                   className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 text-lg"
-                  onClick={() => window.open("https://forms.gle/YOUR_ACTUAL_FORM_ID", "_blank")}
+                  onClick={() => window.open("https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=SJPOFSq-K0aPwOF2WpsgSj392ylT8wdGmjkqzmxpPXhUMUJDVzROUzE3Q1JNUE1PUDEzM09QNk5TVS4u", "_blank")}
                 >
                   Register Now <ExternalLink className="ml-2 h-5 w-5" />
                 </Button>
@@ -326,7 +326,7 @@ export default function HackathonPage() {
               <Button
                 variant="outline"
                 className="border-gray-600 text-gray-300 hover:bg-gray-800 bg-transparent"
-                onClick={() => window.open("https://forms.gle/YOUR_ACTUAL_FORM_ID", "_blank")}
+                onClick={() => window.open("https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=SJPOFSq-K0aPwOF2WpsgSj392ylT8wdGmjkqzmxpPXhUMUJDVzROUzE3Q1JNUE1PUDEzM09QNk5TVS4u", "_blank")}
               >
                 Register Now
               </Button>
