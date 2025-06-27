@@ -1,3 +1,4 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
@@ -11,8 +12,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === "production" ? "/NTUxATLAS-Hackathon" : "",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/NTUxATLAS-Hackathon/" : "",
 }
 
 module.exports = nextConfig
