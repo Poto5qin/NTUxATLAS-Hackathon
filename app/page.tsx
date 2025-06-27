@@ -139,11 +139,10 @@ export default function HackathonPage() {
                 <Button
                   size="lg"
                   className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 text-lg"
-                  onClick={() => window.open("https://forms.gle/your-registration-link", "_blank")}
+                  onClick={() => window.open("https://forms.gle/YOUR_ACTUAL_FORM_ID", "_blank")}
                 >
                   Register Now <ExternalLink className="ml-2 h-5 w-5" />
                 </Button>
-                
               </div>
             </div>
             <div className="flex justify-center">
@@ -232,13 +231,13 @@ export default function HackathonPage() {
                 <CollapsibleTrigger asChild>
                   <Button
                     variant="ghost"
-                    className="w-full p-6 h-auto text-left bg-indigo-100 hover:bg-indigo-200 rounded-lg border-none justify-between"
+                    className="w-full p-6 h-auto text-left bg-indigo-100 hover:bg-indigo-200 rounded-lg border-none justify-between items-start"
                   >
-                    <span className="font-medium text-gray-900 pr-4 border-0">{faq.question}</span>
+                    <span className="font-medium text-gray-900 pr-4 text-wrap leading-relaxed">{faq.question}</span>
                     {openFaq === index ? (
-                      <ChevronUp className="h-5 w-5 text-gray-500 flex-shrink-0" />
+                      <ChevronUp className="h-5 w-5 text-gray-500 flex-shrink-0 mt-1" />
                     ) : (
-                      <ChevronDown className="h-5 w-5 text-gray-500 flex-shrink-0" />
+                      <ChevronDown className="h-5 w-5 text-gray-500 flex-shrink-0 mt-1" />
                     )}
                   </Button>
                 </CollapsibleTrigger>
@@ -327,7 +326,7 @@ export default function HackathonPage() {
               <Button
                 variant="outline"
                 className="border-gray-600 text-gray-300 hover:bg-gray-800 bg-transparent"
-                onClick={() => window.open("https://forms.gle/your-registration-link", "_blank")}
+                onClick={() => window.open("https://forms.gle/YOUR_ACTUAL_FORM_ID", "_blank")}
               >
                 Register Now
               </Button>
