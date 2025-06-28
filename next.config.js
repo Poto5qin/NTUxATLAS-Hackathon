@@ -3,6 +3,8 @@ const nextConfig = {
   output: "export",
   trailingSlash: true,
   distDir: "out",
+  basePath: "/NTUxATLAS-Hackathon", 
+  assetPrefix: "/NTUxATLAS-Hackathon/",
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -12,7 +14,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Force CSS to be included in static export
   experimental: {
     optimizeCss: false,
   },

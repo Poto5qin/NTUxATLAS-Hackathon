@@ -35,9 +35,10 @@ jobs:
         run: pnpm install
         
       - name: Build
-        run: |
-          pnpm run build
-          touch out/.nojekyll
+        run: pnpm run build
+        
+      - name: Add .nojekyll file
+        run: touch out/.nojekyll
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
