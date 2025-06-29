@@ -26,7 +26,7 @@ export default function HackathonPage() {
     },
     {
       question: "How do I register?",
-      answer: "Register via the registration link attached above!",
+      answer: "Register via the 'Register Now' button right at the top of this page.",
     },
     {
       question: "What are the stages of the competition?",
@@ -67,12 +67,12 @@ export default function HackathonPage() {
       description: "Submit your innovative learning analytics solution proposal",
     },
     {
-      date: "Week 5-8",
+      date: "Week 5-9",
       title: "Implementation Phase",
       description: "Develop your solution with mentorship and guidance",
     },
     {
-      date: "Week 9",
+      date: "Week 10",
       title: "Final Presentations",
       description: "Present your solution at the joint conference with Imperial College London",
     },
@@ -333,7 +333,7 @@ export default function HackathonPage() {
               <Button
                 variant="ghost"
                 className="text-gray-300 hover:bg-gray-800"
-                onClick={() => window.open("mailto:info@ntu.edu.sg", "_blank")}
+                onClick={() => window.open("mailto:devhubilab@e.ntu.edu.sg", "_blank")}
               >
                 Contact Us
               </Button>
