@@ -314,14 +314,14 @@ export default function HackathonPage() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="flex justify-center items-center p-8 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <img
-                src="/NTUxATLAS-Hackathon/images/NTU.jpg"
+                src="images/NTU.jpg"
                 alt="Nanyang Technological University Singapore"
                 className="max-h-24 w-auto object-contain"
               />
             </div>
             <div className="flex justify-center items-center p-8 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <img
-                src="/NTUxATLAS-Hackathon/images/imperialcollege.jpg"
+                src="images/imperialcollege.jpg"
                 alt="Imperial College London"
                 className="max-h-24 w-auto object-contain"
               />
