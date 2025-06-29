@@ -304,17 +304,32 @@ export default function HackathonPage() {
             <Button
               size="lg"
               className="bg-indigo-600 hover:bg-indigo-700 text-white"
-              onClick={() => window.open("mailto:sponsor@ntu.edu.sg", "_blank")}
+              onClick={() => window.open("mailto:devhubilab@e.ntu.edu.sg", "_blank")}
             >
               Interested in Sponsoring? Contact Us
             </Button>
           </div>
-          <div className="text-center text-gray-500 py-16">
-            <p className="text-lg">Sponsor logos will be displayed here</p>
-            <p className="text-sm mt-2">Contact us to become a sponsor and support student innovation</p>
+
+          {/* Replace placeholder text with sponsor logos grid */}
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="flex justify-center items-center p-8 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+              <img
+                src="/public/images/NTU.jpg"
+                alt="Nanyang Technological University Singapore"
+                className="max-h-24 w-auto object-contain"
+              />
+            </div>
+            <div className="flex justify-center items-center p-8 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+              <img
+                src="/public/images/imperialcollege.png"
+                alt="Imperial College London"
+                className="max-h-24 w-auto object-contain"
+              />
+            </div>
           </div>
         </div>
       </section>
+
 
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
