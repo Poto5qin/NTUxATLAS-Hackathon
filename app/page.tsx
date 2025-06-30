@@ -310,21 +310,44 @@ export default function HackathonPage() {
             </Button>
           </div>
 
-          {/* Replace placeholder text with sponsor logos grid */}
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="flex justify-center items-center p-8 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-              <img
-                src="images/NTU.jpg"
-                alt="Nanyang Technological University Singapore"
-                className="max-h-24 w-auto object-contain"
-              />
+          {/* Sponsors Subsection */}
+          <div className="mb-20">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Sponsors</h2>
+              <p className="text-lg text-gray-600">Supporting innovation in learning analytics</p>
             </div>
-            <div className="flex justify-center items-center p-8 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-              <img
-                src="images/imperialcollege.jpg"
-                alt="Imperial College London"
-                className="max-h-24 w-auto object-contain"
-              />
+            <div className="flex justify-center">
+              <div className="flex justify-center items-center">
+                <img
+                  src="images/NTU.jpg"
+                  alt="Nanyang Technological University Singapore"
+                  className="max-h-32 w-auto object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Partners Subsection */}
+          <div>
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Partners</h2>
+              <p className="text-lg text-gray-600">Collaborating to advance learning technology</p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+              <div className="flex justify-center items-center">
+                <img
+                  src="images/imperialcollege.jpg"
+                  alt="Imperial College London"
+                  className="max-h-32 w-auto object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="flex justify-center items-center">
+                <img
+                  src="images/ilab.jpg"
+                  alt="iLab"
+                  className="max-h-32 w-auto object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
             </div>
           </div>
         </div>
