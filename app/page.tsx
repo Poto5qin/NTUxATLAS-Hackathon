@@ -151,7 +151,7 @@ export default function HackathonPage() {
                   <Calendar className="h-16 w-16 mx-auto mb-4 text-indigo-300" />
                   <h3 className="text-2xl font-bold mb-4">Event Schedule</h3>
                   <p className="text-lg mb-2">Registration Open</p>
-                  <p className="text-indigo-200">4th July 2025</p>
+                  <p className="text-indigo-200">14th July 2025</p>
                 </div>
               </div>
             </div>
