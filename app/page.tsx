@@ -314,7 +314,6 @@ export default function HackathonPage() {
           <div className="mb-20">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Sponsors</h2>
-              <p className="text-lg text-gray-600">Supporting innovation in learning analytics</p>
             </div>
             <div className="flex justify-center">
               <div className="flex justify-center items-center">
@@ -331,7 +330,6 @@ export default function HackathonPage() {
           <div>
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Partners</h2>
-              <p className="text-lg text-gray-600">Collaborating to advance learning technology</p>
             </div>
             <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
               <div className="flex justify-center items-center">
