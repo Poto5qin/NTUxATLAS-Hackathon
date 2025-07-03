@@ -52,29 +52,54 @@ export default function HackathonPage() {
 
   const timelineEvents = [
     {
-      date: "Week 1-2",
-      title: "Registration & Team Formation",
-      description: "Register for the hackathon and form interdisciplinary teams",
+      date: "4th – 11th July 2025",
+      title: "Pre-Registration",
+      description: "Register for the hackathon and receive updates",
     },
     {
-      date: "Week 3",
-      title: "Ideation Workshops",
-      description: "Attend workshops on learning analytics, AI, and design thinking",
+    date: "15th July 2025",
+    title: "Opening Ceremony",
+    description: "Kick-off the hackathon and learn more about the challenge.",
     },
     {
-      date: "Week 4",
-      title: "Proposal Submission",
-      description: "Submit your innovative learning analytics solution proposal",
+      date: "15th – 25th July 2025",
+      title: "Call for Participants",
+      description: "Form teams and officially sign up for the hackathon.",
     },
     {
-      date: "Week 5-9",
+      date: "4th – 6th Aug 2025",
+      title: "Training Sessions",
+      description: "Attend workshops and training sessions to prepare your team.",
+    },
+    {
+      date: "15th Aug 2025",
+      title: "Proposal Submission Deadline",
+      description: "Submit your team’s proposal for the hackathon challenge.",
+    },
+    {
+      date: "22nd Aug 2025",
+      title: "Proposal Result Announcement",
+      description: "Find out if your team has been shortlisted for Stage 1.",
+    },
+    {
+      date: "25th Aug – 30th Sep 2025",
       title: "Implementation Phase",
-      description: "Develop your solution with mentorship and guidance",
+      description: "Develop and implement your solution with mentorship support.",
     },
     {
-      date: "Week 10",
-      title: "Final Presentations",
-      description: "Present your solution at the joint conference with Imperial College London",
+      date: "1st Oct 2025",
+      title: "Demo and Presentation",
+      description: "Showcase your solution to judges and peers.",
+    },
+    {
+      date: "6th Oct - 4th Nov 2025",
+      title: "Refine and Preparation",
+      description: "Refine your solution and prepare for the final presentation.",
+    },
+    {
+      date: "5th Nov 2025",
+      title: "Award Ceremony",
+      description: "Celebrate the winners and outstanding solutions.",
     },
   ]
 
